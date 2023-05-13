@@ -1,0 +1,12 @@
+[Unit]
+Description=mount android parts extra
+Before=lxc@android.service
+Requires=android-mount.service
+After=android-mount.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mount-android-extra.sh
+
+[Install]
+RequiredBy=local-fs.target

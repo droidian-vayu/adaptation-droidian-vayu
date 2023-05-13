@@ -1,0 +1,4 @@
+service vendor.audio-hal android.hardware.audio.service_DISABLED
+    disabled
+    oneshot
+    override
