@@ -1,1 +1,0 @@
-# adaptation-droidian-vayu
