@@ -8,11 +8,11 @@ Standards-Version: 4.5.0.3
 Package: adaptation-droidian-vayu
 Architecture: all
 Depends: ${misc:Depends},
-         adaptation-hybris-api28-phone,
-         adaptation-lavender-configs,
+         adaptation-hybris-api30-phone,
+         adaptation-vayu-configs,
          wlr-randr,
 Description: adapatation-vayu-meta
- lavender api28 adaptation metapackage
+ vayu api30 adaptation metapackage
 
 Package: adaptation-vayu-configs
 Architecture: all
