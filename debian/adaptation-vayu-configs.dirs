@@ -1,11 +1,12 @@
 /etc/udev/rules.d
+/etc/apt/sources.list.d
 /etc/gst-droid
 /etc/phosh
-/etc/apt/sources.list.d
 /etc/systemd/system/bluebinder.service.d
 /etc/systemd/system/phosh.service.d
 /usr/bin
+/usr/share/keyrings
+/usr/lib/droidian/device
 /usr/lib/droid-system-overlay/etc/init
 /usr/lib/droid-vendor-overlay/etc
-/usr/lib/droidian/device
 /var/lib/bluetooth
