@@ -1,1 +1,1 @@
-deb https://vacuumbeef.github.io/vayu-repo bookworm main
+deb [arch=all signed-by=/usr/share/keyrings/vayu.gpg] https://vacuumbeef.github.io/vayu-repo bookworm main
