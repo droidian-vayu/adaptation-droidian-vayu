@@ -1,5 +1,7 @@
 /etc/udev/rules.d
-/etc/apt/sources.list.d
+/var/lib/bluetooth
+/usr/lib/adaptation-droidian-vayu/sources.list.d
+/sources.list.d
 /etc/gst-droid
 /etc/phosh
 /etc/systemd/system/phosh.service.d
@@ -8,4 +10,3 @@
 /usr/lib/droidian/device
 /usr/lib/droid-system-overlay
 /usr/lib/droid-vendor-overlay
-/var/lib/bluetooth
