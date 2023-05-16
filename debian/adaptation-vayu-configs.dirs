@@ -1,7 +1,6 @@
 /etc/udev/rules.d
 /var/lib/bluetooth
 /usr/lib/adaptation-droidian-vayu/sources.list.d
-/sources.list.d
 /etc/gst-droid
 /etc/phosh
 /etc/systemd/system/phosh.service.d
