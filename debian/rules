@@ -4,4 +4,4 @@
 	dh $@
 
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-lavender-configs --name=batman batman.service --no-start
+	dh_installsystemd -padaptation-vayu-configs --name=batman batman.service --no-start
