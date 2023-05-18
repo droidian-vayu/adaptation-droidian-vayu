@@ -5,6 +5,7 @@
 /etc/phosh
 /etc/systemd/system/phosh.service.d
 /lib/systemd/system/bluebinder.service.d
+/usr/bin
 /usr/share/keyrings
 /usr/share/glib-2.0/schemas
 /usr/lib/droidian/device
