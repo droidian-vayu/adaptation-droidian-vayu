@@ -4,6 +4,7 @@
 /etc/gst-droid
 /etc/phosh
 /etc/systemd/system/phosh.service.d
+/etc/skel
 /lib/systemd/system/bluebinder.service.d
 /usr/bin
 /usr/share/keyrings
