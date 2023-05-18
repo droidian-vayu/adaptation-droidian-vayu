@@ -6,3 +6,4 @@
 override_dh_installsystemd:
 	dh_installsystemd -padaptation-vayu-configs --name=batman batman.service --no-start
 	dh_installsystemd -padaptation-vayu-configs --name=clock-pos-fix clock-pos-fix.service --no-start
+	dh_installsystemd -padaptation-vayu-configs --name=keyboard-layout keyboard-layout.service --no-start
