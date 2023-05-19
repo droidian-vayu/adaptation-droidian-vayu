@@ -1,0 +1,10 @@
+[Unit]
+Description=Fix for keyring on first boot
+Before=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'rm /home/droidian/.local/share/keyrings/login.keyring && chown droidian:droidian -R /home/droidian && sudo systemctl disable keyring-fix.service'
+
+[Install]
+WantedBy=multi-user.target
