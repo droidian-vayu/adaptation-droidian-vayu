@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: adaptation-droidian-vayu
-Source: https://github.com/droidian-lavender/adaptation-droidian-lavender
+Source: https://github.com/vacuumbeef/adaptation-droidian-vayu
 
 Files: *
-Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
+Copyright: 2023 vacuumbeef <stresscult@disroot.org>
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
+Copyright: 2023 vacuumbeef <stresscult@disroot.org>
 License: BSD-3-clause
 
 License: BSD-3-clause

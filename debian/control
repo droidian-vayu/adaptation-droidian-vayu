@@ -10,7 +10,7 @@ Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api30-phone,
          adaptation-vayu-configs,
-         wlr-randr,
+	 wlr-randr,
 Description: adapatation-vayu-meta
  vayu api30 adaptation metapackage
 
