@@ -1,0 +1,10 @@
+[Unit]
+Description=Fix keyring issue by deleting login.keyring on first boot
+Before=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'rm /home/droidian/.local/share/keyrings/login.keyring && systemctl disable keyring-fix.service'
+
+[Install]
+WantedBy=multi-user.target
