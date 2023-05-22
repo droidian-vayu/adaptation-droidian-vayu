@@ -1,6 +1,6 @@
 [Unit]
 Description=Fix keyring issue by deleting login.keyring on first boot
-Before=phosh.service
+After=phosh.service
 
 [Service]
 Type=oneshot
