@@ -1,5 +1,5 @@
-adaptation-droidian-vayu (0.0+1) main; urgency=medium
+adaptation-droidian-vayu (0.1+1) main; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
+  * Removed mixer config from overlay. (Closes: #XXXXXX)
 
  -- vacuumbeef <vacuumbeef@vacuumbeef>  Sat, 13 May 2023 20:11:13 +0300
