@@ -4,7 +4,7 @@ Before=phosh.service
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c 'if [ ! -d "/home/droidian/.config/gtk-3.0/gtk.css" ]; then cp /etc/skel/.config/gtk-3.0/gtk.css /home/droidian/.config/gtk-3.0/gtk.css -r && chown droidian:droidian -R /home/droidian; fi'
+ExecStart=/bin/bash -c 'if [ ! -d "/home/droidian/.config/gtk-3.0/gtk.css" ]; then cp /etc/skel/.config/gtk-3.0/gtk.css /home/droidian/.config/gtk-3.0/gtk.css -r && chown droidian:droidian -R /home/droidian/.config/gtk-3.0/; fi'
 
 [Install]
 WantedBy=multi-user.target
