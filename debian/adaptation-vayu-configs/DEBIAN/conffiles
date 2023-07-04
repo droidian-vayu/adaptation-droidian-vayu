@@ -1,5 +1,0 @@
-/etc/gst-droid/gstdroidcodec.conf
-/etc/phosh/phoc.ini
-/etc/skel/.config/gtk-3.0/gtk.css
-/etc/systemd/system/phosh.service.d/90-wait.conf
-/etc/udev/rules.d/70-vayu.rules

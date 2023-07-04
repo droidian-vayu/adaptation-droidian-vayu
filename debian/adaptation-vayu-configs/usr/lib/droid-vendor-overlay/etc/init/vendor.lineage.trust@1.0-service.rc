@@ -1,3 +1,0 @@
-service vendor.trust-hal-1-0 /vendor/bin/hw/vendor.lineage.trust@1.0-service_HALIUM_DISABLED
-	disabled
-	override
