@@ -1,0 +1,10 @@
+Package: adaptation-vayu-configs
+Source: adaptation-droidian-vayu
+Version: 0.1+2
+Architecture: all
+Maintainer: vacuumbeef
+Installed-Size: 95
+Depends: dconf-gsettings-backend | gsettings-backend
+Section: metapackages
+Priority: optional
+Description: vayu's adaptation configs

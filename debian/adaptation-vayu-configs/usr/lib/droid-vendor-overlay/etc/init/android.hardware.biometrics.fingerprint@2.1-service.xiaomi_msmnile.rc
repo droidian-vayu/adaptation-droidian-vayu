@@ -1,0 +1,3 @@
+service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msmnile_HALIUM_DISABLED
+	desabled
+	override

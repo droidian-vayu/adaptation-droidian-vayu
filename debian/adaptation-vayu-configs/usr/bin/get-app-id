@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# run get_app_id {appname} to get the app id to use in scale-to-fit {app_id} {true|false}
+WAYLAND_DEBUG=1 $1 |& grep 'xdg_toplevel@[0-9]\+\.set_app_id'

@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# scale-to-fit {app_id} {true|false}
+# https://gitlab.gnome.org/World/Phosh/phoc/-/blob/master/helpers/scale-to-fit
+
+set -e
+
+export GSETTINGS_SCHEMA_DIR=_build/data/
+
+function print_current()
+{
+  local app_id="$1"
+  local munged_id="$2"
+
+  echo -n "Scale-to-fit for $app_id: "
+  G_MESSAGES_DEBUG='' gsettings get sm.puri.phoc.application:/sm/puri/phoc/application/"$munged_id"/ scale-to-fit
+}
+
+if [ -z "$1" ]; then
+  echo "Usage: $0 APP-ID [VALUE]"
+  exit 0
+fi
+
+APP_ID="$1"
+MUNGED_ID=$(echo "$1" | sed 's/[^a-zA-Z0-9]/-/g' | tr '[:upper:]' '[:lower:]')
+
+if [ -z "$2" ]; then
+  print_current "$APP_ID" "$MUNGED_ID"
+  exit 0
+fi
+
+case "$2" in
+        ""|on|1|ON|true)
+        val=true
+        ;;
+        *)
+        val=false
+        ;;
+esac
+G_MESSAGES_DEBUG='' gsettings set sm.puri.phoc.application:/sm/puri/phoc/application/"$MUNGED_ID"/ scale-to-fit "$val"
+
+print_current "$APP_ID" "$MUNGED_ID"

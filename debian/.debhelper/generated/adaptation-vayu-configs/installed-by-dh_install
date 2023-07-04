@@ -1,0 +1,10 @@
+./etc/gst-droid
+./etc/phosh
+./etc/skel
+./etc/systemd
+./etc/udev
+./usr/bin
+./usr/lib
+./usr/share
+./lib/systemd
+./var/lib
