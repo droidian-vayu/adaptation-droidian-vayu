@@ -4,5 +4,5 @@
 	dh $@
 
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-vayu-configs --name=clock-pos-fix clock-pos-fix.service --no-start
 	dh_installsystemd -padaptation-vayu-configs --name=keyring-fix keyring-fix.service --no-start
+	dh_installsystemd -padaptation-vayu-configs --name=vayu-postboot vayu-postboot.service --no-start

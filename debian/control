@@ -11,6 +11,8 @@ Depends: ${misc:Depends},
          adaptation-hybris-api30-phone,
          adaptation-vayu-configs,
 	 wlr-randr,
+	 droidian-camera,
+	 gstreamer1.0-tools,
 Description: adapatation-vayu-meta
  vayu api30 adaptation metapackage
 

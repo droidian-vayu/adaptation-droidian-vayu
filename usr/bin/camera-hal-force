@@ -1,0 +1,11 @@
+#!/bin/bash
+
+waitforservice init.svc.camera_service
+
+sudo -u droidian bash -c "timeout 5s gst-launch-1.0 droidcamsrc camera_device=0 mode=2 ! tee name=t t. ! queue ! video/x-raw, width=1920, height=1080 ! videoconvert ! videoflip video-direction=auto ! fakesink"
+
+sudo -u droidian bash -c "timeout 5s gst-launch-1.0 droidcamsrc camera_device=0 mode=2 ! tee name=t t. ! queue ! video/x-raw, width=1920, height=1080 ! videoconvert ! videoflip video-direction=auto ! fakesink"
+
+sudo -u droidian bash -c "timeout 5s gst-launch-1.0 droidcamsrc camera_device=0 mode=2 ! tee name=t t. ! queue ! video/x-raw, width=1920, height=1080 ! videoconvert ! videoflip video-direction=auto ! fakesink"
+
+exit 0
