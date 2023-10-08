@@ -1,5 +1,5 @@
 [Unit]
-Description=Hacks that have to be applied on boot for miatoll
+Description=Hacks that have to be applied on boot for vayu
 Requires=lxc@android.service
 
 [Service]
