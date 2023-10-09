@@ -5,7 +5,7 @@ Requires=lxc@android.service
 [Service]
 Type=oneshot
 Environment=LAUNCHED_BY_SYSTEMD=1
-ExecStartPre=/bin/sleep 5
+ExecStartPre=/bin/sleep 8
 ExecStart=/usr/bin/vayu-postboot.sh
 ExecStartPost=/usr/bin/camera-hal-force
 
