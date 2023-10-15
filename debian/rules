@@ -7,3 +7,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-vayu-configs --name=keyring-fix keyring-fix.service --no-start
 	dh_installsystemd -padaptation-vayu-configs --name=vayu-postboot vayu-postboot.service --no-start
 	dh_installsystemd -padaptation-vayu-configs --name=droidian-perf droidian-perf.service --no-start
+	dh_installsystemd -padaptation-vayu-configs --name=torch-fix torch-fix.service --no-start
