@@ -1,0 +1,11 @@
+[Unit]
+Description=Make droidian own /sys/class/leds/led\:torch*
+Requires=lxc@android.service
+After=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'chown -R droidian:droidian /sys/class/leds/led\:torch*'
+
+[Install]
+WantedBy=multi-user.target
