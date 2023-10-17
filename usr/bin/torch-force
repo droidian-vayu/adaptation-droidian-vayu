@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo -u droidian bash -c "rm ~/.cache/gstreamer* -rf"
+sudo -u droidian bash -c "gst-launch-1.0 droidcamsrc video-torch=false mode=2"
+sudo -u droidian bash -c "gst-launch-1.0 droidcamsrc video-torch=false mode=2"
+sudo -u droidian bash -c "gst-launch-1.0 droidcamsrc video-torch=false mode=2"
+
+exit 0

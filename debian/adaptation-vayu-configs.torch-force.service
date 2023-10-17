@@ -1,0 +1,12 @@
+[Unit]
+Description=Launch hack for fixing torchlight
+Requires=lxc@android.service
+
+[Service]
+Type=oneshot
+Environment=LAUNCHED_BY_SYSTEMD=1
+ExecStartPre=/bin/sleep 10
+ExecStart=/usr/bin/torch-force
+
+[Install]
+WantedBy=multi-user.target
