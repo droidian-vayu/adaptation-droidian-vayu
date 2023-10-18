@@ -1,5 +1,5 @@
-adaptation-droidian-vayu (0.1+3) main; urgency=medium
+adaptation-droidian-vayu (0.1+4) main; urgency=medium
 
-  * Removed batman. (Closes: #XXXXXX)
+  * Added ril_subscription. (Closes: #XXXXXX)
 
  -- vacuumbeef <vacuumbeef@vacuumbeef>  Sat, 03 Jul 2023 20:11:13 +0300
